@@ -1,0 +1,27 @@
+{"level":"info","time":"2023-04-13T03:46:00Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
+{"level":"info","time":"2023-04-13T03:46:00Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"|  https://casual-absence-unlock-cars.trycloudflare.com                                      |"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"Version 2023.4.0"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"GOOS: linux, GOVersion: go1.19.6, GoArch: amd64"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"Settings: map[ha-connections:1 logfile:.cld.log protocol:quic url:127.0.0.1:8080]"}
+{"level":"info","autoupdateFreq":86400000,"time":"2023-04-13T03:46:03Z","message":"Autoupdate frequency is set"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"Generated Connector ID: c49926e2-d650-43a5-9e61-c9221027233a"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"Initial protocol quic"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"ICMP proxy will use 192.168.0.241 as source for IPv4"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"ICMP proxy will use fe80::86fd:d1ff:fe12:331f in zone wlan0 as source for IPv6"}
+{"level":"warn","error":"Group ID 1000 is not between ping group 1 to 0","time":"2023-04-13T03:46:03Z","message":"The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network"}
+{"level":"warn","error":"cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied","time":"2023-04-13T03:46:03Z","message":"ICMP proxy feature is disabled"}
+{"level":"info","time":"2023-04-13T03:46:03Z","message":"Starting metrics server on 127.0.0.1:42403/metrics"}
+{"level":"info","connIndex":0,"location":"DME","ip":"198.41.200.13","time":"2023-04-13T03:46:04Z","message":"Connection a855119b-6321-48e6-92d5-502de0dd259c registered with protocol: quic"}
+{"level":"info","time":"2023-04-13T03:47:34Z","message":"Initiating graceful shutdown due to signal interrupt ..."}
+{"level":"info","connIndex":0,"time":"2023-04-13T03:47:35Z","message":"Unregistered tunnel connection"}
+{"level":"error","ip":"198.41.200.13","connIndex":0,"error":"Application error 0x0","time":"2023-04-13T03:47:35Z","message":"Failed to serve quic connection"}
+{"level":"error","ip":"198.41.200.13","connIndex":0,"error":"Application error 0x0","time":"2023-04-13T03:47:35Z","message":"Serve tunnel error"}
+{"level":"info","ip":"198.41.200.13","connIndex":0,"time":"2023-04-13T03:47:35Z","message":"Retrying connection in up to 1s"}
+{"level":"error","time":"2023-04-13T03:47:35Z","message":"no more connections active and exiting"}
+{"level":"info","time":"2023-04-13T03:47:35Z","message":"Tunnel server stopped"}
+{"level":"info","time":"2023-04-13T03:47:35Z","message":"Metrics server stopped"}
